@@ -5,7 +5,7 @@
     <div class="d-flex justify-content-between align-items-center container-fluid mt-3 bg-light py-2 px-3">
         <img src="/img/rs.png" width="140px" height="110px" alt="" srcset="">
         <div class="pricing-header ">
-            <h1 class="display-4 font-weight-bold text-success">ANTRIAN POLI </h1>
+            <h1 class="display-4 font-weight-bold text-success">ANTRIAN POLI</h1>
         </div>
         <img src="/img/bpjs.png" width="280px" height="50px" alt="" srcset="">
     </div>
@@ -38,6 +38,7 @@
         $(document).ready(function() {
             getData();
         });
+
         function getData() {
             var urlParams = new URLSearchParams(window.location.search);
             var kd_dokter = urlParams.get('kd_dokter');
